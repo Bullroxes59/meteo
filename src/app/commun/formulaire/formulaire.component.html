@@ -1,0 +1,32 @@
+
+<!-- <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mx-auto mt-5 text-center">
+                 <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label text-warning text-uppercase">Entrez votre code postal</label>
+                    <input [formControl]="code" type="text" class="form-control" id="pays" aria-describedby="emailHelp">
+                    
+                </div>
+                <button (click)="afficherMessage()" type="submit" id="bouton" class="btn btn-warning">Validez</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mx-auto mt-5 text-center fs-3 fw-bold text-warning">
+            </div>
+        </div> -->
+
+        <div class="container">
+    <div class="row">
+        <div class="col-lg-6 mx-auto mt-5 text-center">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label text-warning text-uppercase">
+                    Entrez votre code postal
+                </label>
+                <input [formControl]="code" type="text" class="form-control" id="pays" aria-describedby="emailHelp">
+            </div>
+            
+            <button (click)="envoyerCode()" type="submit" id="bouton" class="btn btn-warning">
+                Validez
+            </button>
+        </div>
+    </div>
+</div>
